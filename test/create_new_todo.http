@@ -1,0 +1,8 @@
+@base_url=http://localhost:8080
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "text": "New Todo"
+}
